@@ -1,1 +1,1 @@
-{"kfc": {"pizza": {"price": "200", "isAvailable": "True"}, "burger": {"price": "500", "isAvailable": "False"}}}
+{"chef": [{"name": "kfc", "items": [{"food": "pizza", "price": "500", "isAvailable": "True"}, {"food": "burgar", "price": "200", "isAvailable": "True"}, {"food": "frenchfries", "price": "500", "isAvailable": "True"}]}, {"name": "trail", "items": [{"food": "pizza", "price": "78", "isAvailable": "True"}]}, {"name": "dominos", "items": [{"food": "pizza", "price": "100", "isAvailable": "False"}]}]}
