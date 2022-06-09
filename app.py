@@ -66,6 +66,9 @@ class addFood(Resource):
       isAvailable = request.args.get('isAvailable') 
       with open("sample.json", "r") as file:
          data = json.load(file)
+      chefList=chef_name(data)
+      if chef not in chefList:
+         return "First add chef " + chef
       data = add_food(data, chef, name, price, isAvailable)
       json_object = json.dumps(data)
       with open("sample.json", "w") as file:
