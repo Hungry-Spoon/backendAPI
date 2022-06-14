@@ -12,6 +12,6 @@
 ### to view the database
 ``` http://127.0.0.1:5000/ ```
 ### to add chef to the database
-``` http://127.0.0.1:5000/addChef ```
+``` http://127.0.0.1:5000/addChef?chef=<chef> ```
 ### to add/update new food under chef
-``` http://127.0.0.1:5000/addFood ```
+``` http://127.0.0.1:5000/addFood?chef=<chef>&name=<food_name>&price=<price> ```
