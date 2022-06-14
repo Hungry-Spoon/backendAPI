@@ -3,7 +3,7 @@
 ## run the api locally  
 
 ### Install the required modules
-``` pip3 install requiremets.text ```
+``` pip3 install -r requiremets.text ```
 <br>
 
 ### Start the API 
