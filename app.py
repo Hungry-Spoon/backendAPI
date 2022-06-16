@@ -1,9 +1,11 @@
+from flask_cors import CORS 
 from flask import Flask, request
 from flask_restful import Api, Resource
 import json 
 
 app=Flask(__name__) 
 api=Api(app) 
+CORS(app)
 
 
 def chef_name(data):

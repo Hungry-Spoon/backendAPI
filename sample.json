@@ -1,1 +1,22 @@
-{"chef": [{"name": "kfc", "items": [{"food": "pizza", "price": "500", "isAvailable": "True"}, {"food": "burgar", "price": "200", "isAvailable": "True"}, {"food": "frenchfries", "price": "500", "isAvailable": "True"}]}, {"name": "trail", "items": [{"food": "pizza", "price": "78", "isAvailable": "True"}]}, {"name": "dominos", "items": [{"food": "pizza", "price": "100", "isAvailable": "False"}]}]}
+{
+  "chef": [
+    {
+      "name": "Rima Sen",
+      "items": [
+        { "food": "South Indian Thali", "price": "100", "isAvailable": "True" },
+        { "food": "Fish Thali", "price": "200", "isAvailable": "True" },
+        { "food": "Chicken Meal", "price": "240", "isAvailable": "False" }
+      ]
+    },
+    {
+      "name": "Somdotta Sur",
+      "items": [{ "food": "Veg Thali", "price": "90", "isAvailable": "True" }]
+    },
+    {
+      "name": "Sonali Deb",
+      "items": [
+        { "food": "Fish Thali", "price": "180", "isAvailable": "False" }
+      ]
+    }
+  ]
+}
